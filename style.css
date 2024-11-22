@@ -2,9 +2,9 @@
 
 }
 .box{
-    height: 500px;
+    height: 230px;
     width: 500px;
-    background-color: blueviolet;
+    background-color: rgb(201, 201, 201);
 }
 .text{
 
@@ -14,7 +14,78 @@
 }
 .part1{
     text-align: center;
+    padding-top: 10px;
 }
 .part2{
     text-align: center;
+}
+.text2{
+
+}
+.vzrl{
+    display: flex;
+}
+.part3{
+    display: flex;
+    justify-content: center;
+}
+.info{
+    background-color: blue;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+.blue-button{
+    background-color: blue;
+    margin: auto;
+    display: block;
+    margin-top: 15px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 21px;
+    border-radius: 4px;
+    transition: 1s;
+    cursor: pointer;
+    box-shadow: 1px 1px 12px black;
+}
+.blue-button:hover{
+    background-color: blue;
+}
+.blue-button:active{
+    transform: translatey(5px);
+    transition: 0.1s;
+}
+.menu{
+    display: flex;
+    font-weight: bold;
+}
+.minus{
+    background-color: grey;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+.figure{
+    background-color: grey;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+.plus{
+    background-color: grey;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+.close{
+    background-color: red;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    margin-left: auto;
 }
